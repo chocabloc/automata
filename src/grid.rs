@@ -22,7 +22,7 @@ impl Grid {
         Self { g: vec![0; w*h], g0: vec![0; w*h], w, h }
     }
 
-    pub fn step(&mut self, rule: Rule) {
+    pub fn step(&mut self, rule: impl Rule) {
         let mut n: Neighborhood;
         let (wi, hi) = (self.w as i32, self.h as i32);
 

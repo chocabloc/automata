@@ -10,8 +10,7 @@ Here's Rule 110 starting from a random initial state:
 ### To Do:
 
 * Implement more cool automata.
-* Add colour palletes.
 * Add boundary conditions other than periodic.
-* Add a way to support user-defined palletes and rules without recompiling.
+* Add a way to support user-defined palettes and rules without recompiling.
 * Add hexagonal grids.
 * Make it interactive.
